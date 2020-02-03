@@ -4,9 +4,12 @@
 #include "pch.h"
 #include <iostream>
 
+void f(const char * s);
+
 int main()
 {
-    std::cout << "Hello World!\n"; 
+    std::cout << "Hello, World!\n"; 
+	f("Hello, C++!!");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
